@@ -10,35 +10,35 @@ This analysis demonstrates that wind power is positioned to become the dominant 
 
 ## Project Files
 
-**`UK-offshore-wind-analysis.pdf`**  
+**`0-UK-offshore-wind-analysis.pdf`**  
 Technical report containing:
 - Historical electricity generation trends and renewable energy transition analysis
 - Future energy demand projections and renewable capacity scenarios
 - Detailed offshore wind farm design for Dogger Bank site including turbine selection, energy production calculations, network topology, and economic assessment
 - Environmental impact evaluation and climate change considerations
 
-**`Power_Curve_Modelling (1).ipynb`**  
+**`1-Power_Curve_Modelling.ipynb`**  
 Implementation of parametric wind turbine power curve models based on Saint-Drenan et al. (2020):
 - Six different power coefficient (Cp) models for turbine aerodynamic performance
 - Environmental effects modeling including turbulence intensity, wind shear, and wind veer
 - Rotor Equivalent Wind Speed (REWS) calculations for non-uniform wind conditions
 - Generic power curve generation from basic turbine specifications (nominal power, rotor diameter)
 
-**`Power_Curve_Sensitivity_Analysis (2).ipynb`**  
+**`2-Power_Curve_Sensitivity_Analysis.ipynb`**  
 Comprehensive sensitivity analysis of power curve parameters:
 - Impact assessment of rotor diameter, nominal power, and operational limits
 - Environmental factor sensitivity (turbulence intensity, wind shear, wind veer)
 - Comparison of different Cp models and their effects on power output
 - Air density and conversion efficiency parameter studies
 
-**`Model_Comparison (3).ipynb`**  
+**`3-Model_Comparison.ipynb`**  
 Validation study comparing the generic power curve model with DTU's PyWake library:
 - Cross-validation of power curve generation methods
 - Performance comparison across different turbine configurations
 - Turbulence intensity modeling verification
 - Model accuracy assessment for various rotor diameters
 
-**`Monthly_Power_Estimate (4).ipynb`**  
+**`4-Monthly_Power_Estimate.ipynb`**  
 Statistical wind analysis and power calculations:
 - Weibull and Rayleigh distribution modeling for wind speed variability
 - Monthly average power curve generation from hourly wind data
