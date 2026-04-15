@@ -18,13 +18,13 @@ Technical report containing:
 - Environmental impact evaluation and climate change considerations
 
 **`1-Power_Curve_Modelling.ipynb`**  
-Implementation of parametric wind turbine power curve models based on Saint-Drenan et al. (2020).
+Calculates the raw power output based on rotor area and aerodynamic efficiency (Cp).
 
 **`2-Power_Curve_Sensitivity_Analysis.ipynb`**  
-Comprehensive sensitivity analysis of power curve parameters.
+Tests how variables like Air Density or Rotor Diameter impact total power.
 
 **`3-Model_Comparison.ipynb`**  
 Validation study comparing the generic power curve model with DTU's PyWake library.
 
 **`4-Monthly_Power_Estimate.ipynb`**  
-Statistical wind analysis and power calculations.
+Converts hourly data into monthly projections using probability distributions.
