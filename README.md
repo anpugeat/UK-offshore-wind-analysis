@@ -18,30 +18,13 @@ Technical report containing:
 - Environmental impact evaluation and climate change considerations
 
 **`1-Power_Curve_Modelling.ipynb`**  
-Implementation of parametric wind turbine power curve models based on Saint-Drenan et al. (2020):
-- Six different power coefficient (Cp) models for turbine aerodynamic performance
-- Environmental effects modeling including turbulence intensity, wind shear, and wind veer
-- Rotor Equivalent Wind Speed (REWS) calculations for non-uniform wind conditions
-- Generic power curve generation from basic turbine specifications (nominal power, rotor diameter)
+Implementation of parametric wind turbine power curve models based on Saint-Drenan et al. (2020).
 
 **`2-Power_Curve_Sensitivity_Analysis.ipynb`**  
-Comprehensive sensitivity analysis of power curve parameters:
-- Impact assessment of rotor diameter, nominal power, and operational limits
-- Environmental factor sensitivity (turbulence intensity, wind shear, wind veer)
-- Comparison of different Cp models and their effects on power output
-- Air density and conversion efficiency parameter studies
+Comprehensive sensitivity analysis of power curve parameters.
 
 **`3-Model_Comparison.ipynb`**  
-Validation study comparing the generic power curve model with DTU's PyWake library:
-- Cross-validation of power curve generation methods
-- Performance comparison across different turbine configurations
-- Turbulence intensity modeling verification
-- Model accuracy assessment for various rotor diameters
+Validation study comparing the generic power curve model with DTU's PyWake library.
 
 **`4-Monthly_Power_Estimate.ipynb`**  
-Statistical wind analysis and power calculations:
-- Weibull and Rayleigh distribution modeling for wind speed variability
-- Monthly average power curve generation from hourly wind data
-- Comparison of instantaneous vs. time-averaged power calculations
-- Wind resource assessment methodologies
-
+Statistical wind analysis and power calculations.
