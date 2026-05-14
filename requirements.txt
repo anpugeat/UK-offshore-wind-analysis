@@ -1,0 +1,5 @@
+numpy>=1.23
+matplotlib>=3.7
+py_wake>=2.0
+jupyter>=1.0.0
+ipykernel>=6.0
