@@ -2,7 +2,7 @@
 
 This repository contains two complementary pieces of work:
 
-1. **A feasibility report** — an end-to-end analysis that models historical UK electricity generation (2013–2024), forecasts 2050 Net-Zero demand requirements, and culminates in a conceptual design and 15-year financial lifecycle assessment for a **70 MW commercial offshore wind farm** in the North Sea (Dogger Bank).
+1. **A feasibility report** — an analysis that models historical UK electricity generation (2013–2024), forecasts 2050 Net-Zero demand requirements, and culminates in a conceptual design and 15-year financial lifecycle assessment for a **70 MW commercial offshore wind farm** in the North Sea (Dogger Bank).
 2. **An Python modelling framework** — a Python library (`GenericWindTurbinePowerCurve.py`) plus four Jupyter notebooks that generate, analyse, and validate **generic wind turbine power curves**. Because manufacturer power curves are typically proprietary, this framework provides an accessible, parameterised alternative for energy yield assessment. It underpins the energy yield modelling in the report.
 
 The power-curve library is an implementation and extension of the published parametric model of **Saint-Drenan et al. (2020)**, with a constant-*Cp* option and a non-aerodynamic conversion-efficiency factor. 
